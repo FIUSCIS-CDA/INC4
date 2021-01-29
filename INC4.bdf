@@ -279,31 +279,6 @@ refer to the applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 624 184 672 216)
-	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
-	(text "inst6" (rect 3 21 26 33)(font "Arial" ))
-	(port
-		(pt 0 16)
-		(input)
-		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
-		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
-		(line (pt 0 16)(pt 13 16))
-	)
-	(port
-		(pt 48 16)
-		(output)
-		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(line (pt 39 16)(pt 48 16))
-	)
-	(drawing
-		(line (pt 13 25)(pt 13 7))
-		(line (pt 13 7)(pt 31 16))
-		(line (pt 13 25)(pt 31 16))
-		(circle (rect 31 12 39 20))
-	)
-)
-(symbol
 	(rect 392 496 456 544)
 	(text "OR2" (rect 1 0 19 10)(font "Arial" (font_size 6)))
 	(text "inst7" (rect 3 37 26 49)(font "Arial" ))
@@ -654,10 +629,6 @@ refer to the applicable agreement for further details.
 	(pt 584 200)
 )
 (connector
-	(pt 672 200)
-	(pt 712 200)
-)
-(connector
 	(pt 712 208)
 	(pt 680 208)
 )
@@ -706,36 +677,8 @@ refer to the applicable agreement for further details.
 	(pt 688 640)
 )
 (connector
-	(pt 360 512)
-	(pt 392 512)
-)
-(connector
-	(pt 360 552)
-	(pt 376 552)
-)
-(connector
-	(pt 376 552)
-	(pt 376 528)
-)
-(connector
-	(pt 376 528)
-	(pt 392 528)
-)
-(connector
-	(pt 608 200)
-	(pt 608 272)
-)
-(connector
 	(pt 608 272)
 	(pt 712 272)
-)
-(connector
-	(pt 584 200)
-	(pt 608 200)
-)
-(connector
-	(pt 608 200)
-	(pt 624 200)
 )
 (connector
 	(pt 952 280)
@@ -750,28 +693,12 @@ refer to the applicable agreement for further details.
 	(pt 1120 216)
 )
 (connector
-	(pt 296 208)
-	(pt 296 272)
-)
-(connector
 	(pt 296 272)
 	(pt 320 272)
 )
 (connector
 	(pt 272 208)
 	(pt 296 208)
-)
-(connector
-	(pt 368 272)
-	(pt 456 272)
-)
-(connector
-	(pt 456 272)
-	(pt 456 112)
-)
-(connector
-	(pt 456 112)
-	(pt 528 112)
 )
 (connector
 	(pt 272 32)
@@ -798,10 +725,6 @@ refer to the applicable agreement for further details.
 	(pt 376 16)
 )
 (connector
-	(pt 424 16)
-	(pt 440 16)
-)
-(connector
 	(pt 440 32)
 	(pt 432 32)
 )
@@ -812,10 +735,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 296 208)
 	(pt 432 208)
-)
-(connector
-	(pt 432 208)
-	(pt 584 208)
 )
 (connector
 	(pt 408 424)
@@ -927,15 +846,79 @@ refer to the applicable agreement for further details.
 	(pt 496 584)
 	(pt 608 584)
 )
+(connector
+	(text "notA3" (rect 424 0 452 17)(font "Intel Clear" ))
+	(pt 424 16)
+	(pt 440 16)
+)
+(connector
+	(text "notA2" (rect 378 256 406 273)(font "Intel Clear" ))
+	(pt 368 272)
+	(pt 456 272)
+)
+(connector
+	(pt 456 112)
+	(pt 528 112)
+)
+(connector
+	(text "notA1" (rect 370 496 398 513)(font "Intel Clear" ))
+	(pt 360 512)
+	(pt 392 512)
+)
+(connector
+	(text "notA0" (rect 360 536 388 553)(font "Intel Clear" ))
+	(pt 360 552)
+	(pt 376 552)
+)
+(connector
+	(pt 376 552)
+	(pt 376 528)
+)
+(connector
+	(pt 376 528)
+	(pt 392 528)
+)
+(connector
+	(pt 584 208)
+	(pt 456 208)
+)
+(connector
+	(pt 456 272)
+	(pt 456 208)
+)
+(connector
+	(pt 456 208)
+	(pt 456 112)
+)
+(connector
+	(pt 584 200)
+	(pt 712 200)
+)
+(connector
+	(pt 608 272)
+	(pt 608 232)
+)
+(connector
+	(pt 608 232)
+	(pt 296 232)
+)
+(connector
+	(pt 296 208)
+	(pt 296 232)
+)
+(connector
+	(pt 296 232)
+	(pt 296 272)
+)
 (junction (pt 928 640))
 (junction (pt 680 424))
 (junction (pt 688 640))
 (junction (pt 288 424))
 (junction (pt 288 640))
-(junction (pt 608 200))
 (junction (pt 296 208))
 (junction (pt 496 520))
 (junction (pt 352 32))
-(junction (pt 432 208))
 (junction (pt 408 424))
 (junction (pt 296 552))
+(junction (pt 456 208))
+(junction (pt 296 232))
